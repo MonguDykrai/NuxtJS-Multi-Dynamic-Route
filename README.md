@@ -20,3 +20,7 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
+
+## github 地址
+
+https://github.com/MonguDykrai/NuxtJS-Multi-Dynamic-Route
