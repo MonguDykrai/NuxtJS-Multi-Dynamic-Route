@@ -24,3 +24,8 @@ For detailed explanation on how things work, checkout [Nuxt.js docs](https://nux
 ## github 地址
 
 https://github.com/MonguDykrai/NuxtJS-Multi-Dynamic-Route
+
+## asyncData / @nuxtjs/axios
+
+- https://nuxtjs.org/api/#the-asyncdata-method
+- https://axios.nuxtjs.org/extend

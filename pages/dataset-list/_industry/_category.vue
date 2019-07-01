@@ -8,7 +8,7 @@
       // console.log($axios)
 
       $axios({
-        url: `https://jsonplaceholder.typicode.com/todos`
+        url: `https://jsonplaceholder.typicode.com/todos1`
       })
         .then(res => {
           // console.log(res)
