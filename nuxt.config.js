@@ -28,11 +28,13 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/axios'
   ],
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios'
   ],
   /*
   ** Build configuration

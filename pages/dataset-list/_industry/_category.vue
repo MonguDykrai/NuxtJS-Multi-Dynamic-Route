@@ -3,19 +3,24 @@
 </template>
 
 <script>
-export default {
-  mounted() {
-    console.log(this.$nuxt.$route);
-  }
-};
-</script>
+  export default {
+    asyncData({ $axios }) {
+      // console.log($axios)
 
-// {
-//   fullPath: "/dataset-list/f/f",
-//   hash: "",
-//   matched: [{}],
-//   meta: {},
-//   name: "dataset-list-industry-category",
-//   path: "/dataset-list/f/f",
-//   query: {}
-// }
+      $axios({
+        url: `https://jsonplaceholder.typicode.com/todos`
+      })
+        .then(res => {
+          // console.log(res)
+        })
+        .catch(error => {
+          console.log(error)
+        })
+      // debugger
+      // console.log(context)
+    },
+    mounted() {
+      console.log(this.$nuxt.$route);
+    }
+  };
+</script>
